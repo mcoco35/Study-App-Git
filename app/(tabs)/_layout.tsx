@@ -51,7 +51,13 @@ export default function TabLayout() {
           title: 'About Us',
           tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,
         }}
-      />
+      /><Tabs.Screen
+      name="Notes"
+      options={{
+        title: 'Notes/Reading',
+        tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,
+      }}
+    />
     </Tabs>
   );
 }
