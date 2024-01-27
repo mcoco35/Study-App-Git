@@ -31,7 +31,7 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 24,
     fontWeight: 'bold',
-    color: '#3C3C3C', 
+    color: '#034FAB', 
     marginBottom: 20,
   },
   flashcard: {
